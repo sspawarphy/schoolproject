@@ -1,0 +1,17 @@
+ <!DOCTYPE html>
+ {% load static %}
+ <html lang="en" dir="ltr">
+   <head>
+     <link rel="stylesheet" href="{% static "css/welcome.css" %}">
+     <meta charset="utf-8">
+     <title>home</title>
+   </head>
+   <body>
+       <h1>Welcome to Shree Bhairavnath Vidyalaya Ankoli</h1>
+       <h2>Current date and time is: {{date}}</h2>
+       <img src= "{% static "images/ShreeBhairavnath.jpg" %}" alt="">
+       <img src= "{% static "images/logo.png" %}" alt="">
+       <img src= "{% static "images/KBP.jpg" %}" alt="">
+       <img src= "{% static "images/BVA.jpg" %}" alt="">
+   </body>
+ </html>
